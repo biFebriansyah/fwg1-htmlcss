@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #82b8d9;
+    padding: 0 10px;
+    height: 500vh;
+    /* position: relative; */
+}
+
+.box {
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15pt;
+    font-weight: 700;
+    color: white;
+}
+
+.box1 {
+    background-color: hotpink;
+    position: absolute;
+}
+
+.box2 {
+    background-color: #3068d9;
+    position: fixed;
+    top: 100px;
+    z-index: 1;
+}
+
+.box3 {
+    background-color: #2955d9;
+    position: sticky;
+    top: 10px;
+    z-index: 3;
+}

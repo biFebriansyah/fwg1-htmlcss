@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box {
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/*
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin 
+ */
+
+.box1 {
+    /* box-sizing: border-box; */
+    /* border: 10px solid black; */
+    /* padding: 10px; */
+    background-color: #035aa6;
+}
+
+.box2 {
+    background-color: #4192d9;
+}
+
+.box3 {
+    background-color: #026873;
+}

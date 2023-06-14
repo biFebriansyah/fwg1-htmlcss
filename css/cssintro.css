@@ -1,0 +1,21 @@
+/* tag selector */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* id selector */
+#content {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* class selector */
+.container-puisi {
+    line-height: 24px;
+}
+
+/* desen selector */
+.container-puisi h2 {
+    color: red;
+}
